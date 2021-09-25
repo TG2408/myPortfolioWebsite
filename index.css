@@ -88,3 +88,10 @@ html, body {
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 580px) {
+    #navbar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
